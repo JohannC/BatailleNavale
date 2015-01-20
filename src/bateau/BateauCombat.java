@@ -1,11 +1,11 @@
 package bateau;
 
-import jeu.Océan;
+import jeu.Jeu;
 
 public class BateauCombat extends Bateau{
-	public BateauCombat(Océan terrainDeJeu)
+	public BateauCombat(Jeu j)
 	{
-		super(terrainDeJeu);		
+		super(j);		
 	}
 	public void jouer()
 	{
@@ -18,6 +18,10 @@ public class BateauCombat extends Bateau{
 	public void déplacer()
 	{
 		
+	}
+	public char getTypeDeBateau()
+	{
+		return 'C';
 	}
 	
 }

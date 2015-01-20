@@ -1,24 +1,33 @@
 package bateau;
 
 import java.util.Random;
-import jeu.Océan;
+import jeu.Jeu;
 
 public abstract class Bateau {
 	
-	public Bateau(Océan terrainDeJeu)
+	public Bateau(Jeu j)
 	{
-		this.refTerrainDeJeu = terrainDeJeu;
+		this.refSurJeu = j;
 		Random r = new Random();
-		this.coordX = r.nextInt(terrainDeJeu.getLongueur());
-		this.coordY = r.nextInt(terrainDeJeu.getLargeur());
+		this.coordX = r.nextInt(j.getLongueur());
+		this.coordY = r.nextInt(j.getLargeur());
 	}	
 	public void perdreDesPointsDeVies()
 	{
 		
 	}
-	abstract void jouer();	
+	public int coordX()
+	{
+		return this.coordX;
+	}
+	public int coordY()
+	{
+		return this.coordY;
+	}
+	public abstract void jouer();	
+	public abstract char getTypeDeBateau();
 	protected int coordX;
 	protected int coordY;	
 	protected int résistance;	
-	protected Océan refTerrainDeJeu;	
+	protected Jeu refSurJeu;	
 }
