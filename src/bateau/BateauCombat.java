@@ -15,7 +15,7 @@ public class BateauCombat extends Bateau{
 	{
 		
 	}
-	public void déplacer()
+	public void dÃ©placer()
 	{
 		int[] coordCibleLaPlusProche = this.refSurJeu.getCoordCiblePlusProcheDe(this);
 	}

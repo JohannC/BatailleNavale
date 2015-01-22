@@ -29,7 +29,7 @@ public abstract class Bateau {
 	public abstract void déplacer();
 	protected int coordX;
 	protected int coordY;	
-	protected int résistance;	
+	protected int rÃ©sistance;	
 	protected Jeu refSurJeu;	
 
 }
