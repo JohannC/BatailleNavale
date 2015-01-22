@@ -28,6 +28,6 @@ public abstract class Bateau {
 	public abstract char getTypeDeBateau();
 	protected int coordX;
 	protected int coordY;	
-	protected int résistance;	
+	protected int rÃ©sistance;	
 	protected Jeu refSurJeu;	
 }

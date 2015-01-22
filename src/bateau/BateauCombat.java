@@ -15,7 +15,7 @@ public class BateauCombat extends Bateau{
 	{
 		cible.perdreDesPointsDeVies();
 	}
-	public void déplacer()
+	public void dÃ©placer()
 	{
 		
 	}

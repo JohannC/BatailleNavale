@@ -12,7 +12,7 @@ public class BateauHopital extends Bateau{
 	{
 		
 	}
-	public void déplacer()
+	public void dÃ©placer()
 	{
 		
 	}

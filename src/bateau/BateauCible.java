@@ -12,7 +12,7 @@ public class BateauCible extends Bateau{
 	{
 		
 	}
-	public void déplacer()
+	public void dÃ©placer()
 	{
 		
 	}

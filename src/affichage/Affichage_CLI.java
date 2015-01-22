@@ -12,7 +12,7 @@ public class Affichage_CLI {
 		{
 			for(int k = 0; k < j.getLargeur(); k++)
 			{
-				if(bateauPrésentSurLaCase(i, k))
+				if(bateauPrÃ©sentSurLaCase(i, k))
 					System.out.print(j.getTypeDeBateauALaCoord(i, k)+" ");
 				else
 					System.out.print("- ");
@@ -20,7 +20,7 @@ public class Affichage_CLI {
 			System.out.println();
 		}
 	}
-	private boolean bateauPrésentSurLaCase(int y, int x)
+	private boolean bateauPrÃ©sentSurLaCase(int y, int x)
 	{
 		int[][] listeCoordBateau = this.j.getCoordToutBateau();
 		for(int i=0; i < listeCoordBateau.length; i++)
