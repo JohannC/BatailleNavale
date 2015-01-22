@@ -16,18 +16,20 @@ public abstract class Bateau {
 	{
 		
 	}
-	public int coordX()
+	public int getCoordX()
 	{
 		return this.coordX;
 	}
-	public int coordY()
+	public int getCoordY()
 	{
 		return this.coordY;
 	}
 	public abstract void jouer();	
-	public abstract char getTypeDeBateau();
+	public abstract String toString();
+	public abstract void déplacer();
 	protected int coordX;
 	protected int coordY;	
 	protected int résistance;	
 	protected Jeu refSurJeu;	
+
 }

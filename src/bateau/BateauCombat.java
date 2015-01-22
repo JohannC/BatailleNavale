@@ -9,19 +9,19 @@ public class BateauCombat extends Bateau{
 	}
 	public void jouer()
 	{
-		
+		this.déplacer();
 	}
-	private void tirer(Bateau cible)
+	private void tirer()
 	{
-		cible.perdreDesPointsDeVies();
+		
 	}
 	public void déplacer()
 	{
-		
+		int[] coordCibleLaPlusProche = this.refSurJeu.getCoordCiblePlusProcheDe(this);
 	}
-	public char getTypeDeBateau()
+	public String toString()
 	{
-		return 'C';
+		return "F";
 	}
-	
+	private static final int résistanceMax = 5;
 }
