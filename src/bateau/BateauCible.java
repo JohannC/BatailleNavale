@@ -16,9 +16,8 @@ public class BateauCible extends Bateau{
 	{
 		
 	}
-	public String toString()
+	public char getTypeDeBateau()
 	{
-		return "T";
+		return 'T';
 	}
-	private static final int résistanceMax = 2;
 }

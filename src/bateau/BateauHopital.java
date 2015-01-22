@@ -16,10 +16,9 @@ public class BateauHopital extends Bateau{
 	{
 		
 	}
-	public String toString()
+	public char getTypeDeBateau()
 	{
-		return "H";
+		return 'H';
 	}
-	private static final int résistanceMax = 10;
 
 }
